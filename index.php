@@ -22,11 +22,11 @@ $saluto = "ciao"
                 <form action="./datareceived.php" method="GET">
                     <div class="mb-3">
                          <label for="Paragrafo" class="form-label">Iserisci il tuo paragrafo</label>
-                        <textarea class="form-control" id="Paragrafo" placeholder="Inserisci il tuo paragrafo" rows="3"></textarea>  
+                        <textarea class="form-control" id="paragrafo" name="paragrafo" placeholder="Inserisci il tuo paragrafo" rows="3"></textarea>  
                     </div>                
                     <div class="mb-3">
                         <label for="parola-censurata" class="form-label">Scegli una parola da nascondere</label>
-                        <input type="text" class="form-control" id="parola-censurata" placeholder="Inserisci la parola da nascondere">
+                        <input type="text" class="form-control" id="parolaCensurata" name="parolaCensurata" placeholder="Inserisci la parola da nascondere">
                     </div>  
                     
                     <button type="submit" class="btn btn-primary">Send</button>
