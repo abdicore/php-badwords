@@ -27,7 +27,11 @@ $saluto = "ciao"
                     <div class="mb-3">
                         <label for="parola-censurata" class="form-label">Scegli una parola da nascondere</label>
                         <input type="text" class="form-control" id="parola-censurata" placeholder="Inserisci la parola da nascondere">
-                    </div>               
+                    </div>  
+                    
+                    <button type="submit" class="btn btn-primary">Send</button>
+                    <button type="reset" class="btn btn-warning">Reset</button>
+
                 </form>
                
             </div>
