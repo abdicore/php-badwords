@@ -31,7 +31,7 @@ $saluto = "ciao"
                     
                     <button type="submit" class="btn btn-primary">Send</button>
                     <button type="reset" class="btn btn-warning">Reset</button>
-
+<div class=""></div>
                 </form>
                
             </div>
